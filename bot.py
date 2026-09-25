@@ -9,7 +9,7 @@ from flask import Flask
 import os
 
 # --- تنظیمات اتصال به بله ---
-TOKEN = 2019587974:XDHe9gGX8eTb3OQFklhAB0XubqttvRT8bo4
+TOKEN = '2019587974:XDHe9gGX8eTb3OQFklhAB0XubqttvRT8bo4'
 telebot.apihelper.API_URL = "https://tapi.bale.ai/bot{0}/{1}"
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
